@@ -10,7 +10,7 @@
         "declarationMap": true
     },
     "include": [
-        "models/**/*.ts"
+        "src/**/*.ts"
     ],
     "exclude": [
         "node_modules"
