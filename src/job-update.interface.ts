@@ -1,7 +1,6 @@
-import mongoose, { Document } from 'mongoose';
 import { ILocation } from './location.interface';
 
-export interface IJobUpdate extends Document {
+export interface IJobUpdate {
     title: string;
     description: string;
     location: ILocation;
